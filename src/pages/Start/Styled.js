@@ -16,16 +16,16 @@ export const Container = styled.div`
 
 export const Ellipse = styled.div`
   position: absolute;
-  bottom: 79%;
-  right: 71%;
-  /* height: 955px;
+  /* bottom: 79%;
+  right: 71%; */
+  height: 955px;
   width: 834px;
   border-radius: 50%;
   border: 8px solid #f38650;
   position: absolute;
   bottom: 76%;
-  right: 68%;
-  transform: rotateX(39deg); */
+  right: 69%;
+  transform: rotateX(39deg);
   @media (max-width: 1100px) {
     display: none;
   }
@@ -114,6 +114,7 @@ export const Subtitle = styled.p`
   font-weight: 400;
   line-height: 36px;
   text-align: left;
+  color: #004056;
   @media (max-width: 600px) {
     font-size: 18px;
     font-weight: 400;
@@ -220,7 +221,8 @@ export const EmailUs = styled.a`
   font-weight: 400;
   line-height: 36px;
   cursor: pointer;
-  color: #000;
+  color: #004056;
+;
 
   @media (max-width: 600px) {
     margin-top: 40px;
@@ -258,7 +260,7 @@ export const FooterInfo = styled.div`
 
 export const Description = styled.p`
   font-size: 17px;
-  font-style: normal;
+  font-style: regular;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0em;

@@ -27,15 +27,12 @@ import logo from "../../assets/icons/logo.svg";
 import logoInfo from "../../assets/icons/logos.svg";
 import apple from "../../assets/icons/apple.svg";
 import playstore from "../../assets/icons/playstore.svg";
-import ellipse from "../../assets/icons/Ellipse 1.svg";
 
 const Start = () => {
   return (
     <>
       <Container>
-        <Ellipse>
-          <Logo src={ellipse} />
-        </Ellipse>
+        <Ellipse />
         <LogoBox>
           <Logo src={logo} />
         </LogoBox>

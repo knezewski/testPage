@@ -1,44 +1,21 @@
-/*
- * Web Fonts from colophon-foundry.org
- *
- * The fonts included in this stylesheet are subject to the End User License you purchased
- * from Colophon Foundry. The fonts are protected under domestic and international trademark and
- * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
- * distributing this font software.
- *
- * (c) 2021 Colophon Foundry
- *
- * Licenced to Aleksandr Digital Habits
- */
+@font-face {
+  font-family: 'apercu-regular-pro';
+  src: url('apercu-bold-pro.eot');
+  src: url('apercu-bold-pro.eot?#iefix') format('embedded-opentype'),
+       url('apercu-bold-pro.woff2') format('woff2'),
+       url('apercu-bold-pro.woff') format('woff'),
+       url('apercu-bold-pro.ttf') format('truetype');
+  font-weight: 700;
+  font-style: bold;
+}
 
 @font-face {
-    font-family: 'apercu-regular-pro';
-    src: url('./fonts/apercu-regular-pro.eot');
-    src: url('./fonts/apercu-regular-pro.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/apercu-regular-pro.woff2') format('woff2'),
-         url('./fonts/apercu-regular-pro.woff') format('woff'),
-         url('./fonts/apercu-regular-pro.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'apercu-regular-pro';
+  src: url('apercu-regular-pro.eot');
+  src: url('apercu-regular-pro.eot?#iefix') format('embedded-opentype'),
+       url('apercu-regular-pro.woff2') format('woff2'),
+       url('apercu-regular-pro.woff') format('woff'),
+       url('apercu-regular-pro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-body
- { min-height: 100vh;
-   font-family:"Manrope","apercu-regular-pro";
-}
-
-export const Title = styled.p`
-  margin-top: 100px;
-  font-family: apercu-regular-pro;
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 77px;
-  text-align: center;
-  color: #ece6e3;
-
-  @media (max-width: 600px) {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-  }
-`

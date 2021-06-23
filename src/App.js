@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
 body {
    min-height: 100vh;
    font-family: Apercu Pro;
+   background-color: #044154;
 
 }
 `;
