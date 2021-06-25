@@ -11,11 +11,11 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Apercu Pro;
 }
 
 body {
    min-height: 100vh;
-   font-family: Apercu Pro;
    background-color: #044154;
 
 }
