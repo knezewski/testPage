@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 
 //global style
 import { createGlobalStyle } from "styled-components";
+import "./fonts.css";
 
 const GlobalStyle = createGlobalStyle`
 *,
@@ -16,8 +17,7 @@ const GlobalStyle = createGlobalStyle`
 body {
   min-height: 100vh;
   background-color: #044154;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: Apercu Pro;
+  font-family: Apercu Pro, Tahoma, Arial;
 }
 `;
 
