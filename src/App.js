@@ -11,13 +11,13 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Apercu Pro;
 }
 
 body {
-   min-height: 100vh;
-   background-color: #044154;
-
+  min-height: 100vh;
+  background-color: #044154;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Apercu Pro;
 }
 `;
 
